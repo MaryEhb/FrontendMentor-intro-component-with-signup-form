@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="txt-wrap">
+      <h1 class="heading">
+        Learn to code by watching others
+      </h1>
+      <p class="txt">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="form-wrap">
+      <p class="title"><span>Try it free 7 days</span> then<br /> $20/mo. thereafter</p>
+      <form action="/" id="form">
+        <input type="text" name="first_name" class="req-input" placeholder="First Name" title="First Name"
+          aria-label="First Name">
+        <p class="empty-msg">First name cannot be empty</p>
+        <input type="text" name="last_name" class="req-input" placeholder="Last Name" title="Last Name"
+          aria-label="Last Name">
+        <p class="empty-msg">Last name cannot be empty</p>
+        <input type="email" name="Email" class="req-input" placeholder="Email Address" title="Email Address"
+          aria-label="Email Address">
+        <p class="empty-msg">Looks like this is not an email</p>
+        <input type="password" name="password" class="req-input" placeholder="Password" title="Password"
+          aria-label="Password">
+        <p class="empty-msg">Password cannot be empty</p>
+        <input type="submit" name="submit" id="submit" value="Claim your free trial" title="submit" aria-label="submit">
+        <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/mariem-ehab-1431301b3" target="_blank">Mary.E</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
